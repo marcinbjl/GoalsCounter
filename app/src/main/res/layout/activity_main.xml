@@ -19,13 +19,13 @@
             android:orientation="vertical">
 
             <TextView
-                android:text="@string/team_a"
-                style="@style/team_name" />
+                style="@style/team_name"
+                android:text="@string/team_a" />
 
             <TextView
                 android:id="@+id/team_a_goals"
-                android:text="0"
-                style="@style/goals_number" />
+                style="@style/goals_number"
+                android:text="0" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -33,13 +33,13 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:text="@string/fouls"
-                    style="@style/fouls_textView" />
+                    style="@style/fouls_textView"
+                    android:text="@string/fouls" />
 
                 <TextView
                     android:id="@+id/team_a_fouls"
-                    android:text="0"
-                    style="@style/fouls_and_corners_number" />
+                    style="@style/fouls_and_corners_number"
+                    android:text="0" />
 
             </LinearLayout>
 
@@ -50,30 +50,30 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:text="@string/corners"
-                    style="@style/corners_textView" />
+                    style="@style/corners_textView"
+                    android:text="@string/corners" />
 
                 <TextView
                     android:id="@+id/team_a_corners"
-                    android:text="0"
-                    style="@style/fouls_and_corners_number" />
+                    style="@style/fouls_and_corners_number"
+                    android:text="0" />
 
             </LinearLayout>
 
             <Button
+                style="@style/buttons"
                 android:onClick="addOneGoalForTeamA"
-                android:text="@string/goal_button"
-                style="@style/buttons" />
+                android:text="@string/goal_button" />
 
             <Button
+                style="@style/buttons"
                 android:onClick="addOneFoulForTeamA"
-                android:text="@string/foul_button"
-                style="@style/buttons" />
+                android:text="@string/foul_button" />
 
             <Button
+                style="@style/buttons"
                 android:onClick="addOneCornerForTeamA"
-                android:text="@string/corner_button"
-                style="@style/buttons" />
+                android:text="@string/corner_button" />
         </LinearLayout>
 
         <View
@@ -89,13 +89,13 @@
             android:orientation="vertical">
 
             <TextView
-                android:text="@string/team_b"
-                style="@style/team_name" />
+                style="@style/team_name"
+                android:text="@string/team_b" />
 
             <TextView
                 android:id="@+id/team_b_goals"
-                android:text="0"
-                style="@style/goals_number" />
+                style="@style/goals_number"
+                android:text="0" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -103,13 +103,13 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:text="@string/fouls"
-                    style="@style/fouls_textView" />
+                    style="@style/fouls_textView"
+                    android:text="@string/fouls" />
 
                 <TextView
                     android:id="@+id/team_b_fouls"
-                    android:text="0"
-                    style="@style/fouls_and_corners_number" />
+                    style="@style/fouls_and_corners_number"
+                    android:text="0" />
 
             </LinearLayout>
 
@@ -120,38 +120,38 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:text="@string/corners"
-                    style="@style/corners_textView" />
+                    style="@style/corners_textView"
+                    android:text="@string/corners" />
 
                 <TextView
                     android:id="@+id/team_b_corners"
-                    android:text="0"
-                    style="@style/fouls_and_corners_number" />
+                    style="@style/fouls_and_corners_number"
+                    android:text="0" />
 
             </LinearLayout>
 
             <Button
+                style="@style/buttons"
                 android:onClick="addOneGoalForTeamB"
-                android:text="@string/goal_button"
-                style="@style/buttons" />
+                android:text="@string/goal_button" />
 
             <Button
+                style="@style/buttons"
                 android:onClick="addOneFoulForTeamB"
-                android:text="@string/foul_button"
-                style="@style/buttons" />
+                android:text="@string/foul_button" />
 
             <Button
+                style="@style/buttons"
                 android:onClick="addOneCornerForTeamB"
-                android:text="@string/corner_button"
-                style="@style/buttons" />
+                android:text="@string/corner_button" />
         </LinearLayout>
 
     </LinearLayout>
 
     <Button
+        style="@style/reset_button"
         android:onClick="resetScore"
-        android:text="@string/reset_button"
-        style="@style/reset_button" />
+        android:text="@string/reset_button" />
 
 </RelativeLayout>
 

@@ -15,13 +15,18 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Primary theme color of the app (sets background color of app bar) -->
-        <item name="colorPrimary">#10bf30</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
         <!-- Primary dark theme color of the app (sets color of status bar) -->
-        <item name="colorPrimaryDark">#03b60f</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <!-- Background color of buttons in the app -->
-        <item name="colorButtonNormal">#10bf30</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:textAppearanceButton">@style/buttonText</item>
+    </style>
+
+    <style name="buttonText" parent="@style/TextAppearance.AppCompat.Widget.Button">
+        <item name="android:textColor">@color/colorWhite</item>
     </style>
 
     <style name="team_name">
